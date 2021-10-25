@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+        .left{
+            background-image: url(images/twitter_bg.jpeg);
+            height: 100vh;
+            background-size: cover;
+            width: 55%;
+            align-items: center;
+            justify-content: center;
+           
+
+        }
+        .left img{
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            margin: 200px;
+
+        }
+        .right{
+            height: 100vh;
+            width: 45%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+
+        }
+        .right img{
+            height: 60px;
+            width: 60px;
+            padding: 20px;
+            margin: 20px;
+            
+            
+
+        }
+        .right h1{
+            color: black;
+            font-size: 70px;
+            margin: 20px;
+            padding: 40px;
+           flex-direction:row-reverse;
+        }
+        .right h3{
+            font-size: 30px;
+            margin: 20px;
+            padding: 40px;
+
+        }
+        
+        .button .sign{
+            color: white;
+            background-color: rgb(37, 146, 189);
+            border: 1px solid rgb(37, 146, 189) ;
+            font-size: 15px;
+            margin: 10px;
+            margin-left: 50px;
+            padding: 10px;
+            border-radius: 30px;
+            height: 50px;
+            width: 500px;
+            
+            }
+
+            .button .sign:hover{
+                background-color: blue;
+            }
+
+            .button .login{
+            color: rgb(37, 146, 189);
+            background-color: white;
+            border: 1px solid rgb(37, 146, 189);
+            font-size: 15px;
+            margin: 10px;
+            margin-left: 50px;
+            padding: 10px;
+            border-radius: 30px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 20px;
+            }
+
+            .button .login:hover{
+                background-color: cornsilk;
+            }
+
+            
+            
+            
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="left"><img src="images/twitter_bird.png" alt=""></div>
+          
+              <div class="right">
+                    <img src="images/flying_twitter.gif" alt="">
+                    <div>
+                        <h1>Happening now</h1>
+                   </div>
+                   <div>
+                        <h3>Join Twitter today</h3>
+                   </div>
+                   <div class="button">
+                        <button class="sign">Sign up</button><br>
+                        <button class="login">Log in</button>
+                   </div>
+                </div>
+            
+    </div>
+    
+</body>
+
+</html>
